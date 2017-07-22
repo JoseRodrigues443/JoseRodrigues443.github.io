@@ -30,23 +30,21 @@ footer {
 .floatingBlock {
 	background-color: rgba(90, 145, 168, 0.6) ;
 	float: left;
-	margin: 10px;
-	padding: 10px;
-	width: 25%;
-	max-width: 25%;
-	height: 25%;
+	margin:1%;
+	padding: 1%;
+	width: 20%;
+	height:30%;
 }
 
 
 
 .floatingBlock:hover{
-	background-color: rgba(90, 145, 168, 0.9) ;
+	background-color: rgba(90, 145, 168, 0.7) ;
 	float: left;
-	margin: 10px;
-	padding: 10px;
-	width: 25%;
-	max-width: 25%;
-	height: 25%;
+	margin:1%;
+	padding: 1%;
+	width: 20%;
+	padding-bottom: 1%;
 }
 
 
