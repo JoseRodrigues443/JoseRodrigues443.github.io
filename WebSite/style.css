@@ -9,6 +9,23 @@ body {
 	height: 100%;
 }
 
+.blocksContainer{
+	background-color: rgba(90, 145, 168, 0) ;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	height: 100%;	
+}
+
+footer {
+	background-color: rgba(90, 145, 168, 0.6) ;
+	padding: 1em;
+	color: white;
+	clear: left;
+	text-align: center;
+}
+
 .floatingBlock {
 	background-color: rgba(90, 145, 168, 0.6) ;
 	float: left;
@@ -20,25 +37,37 @@ body {
 }
 
 
-header, footer {
+
+.floatingBlock:hover{
+	background-color: rgba(90, 145, 168, 0.9) ;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 25%;
+	max-width: 25%;
+	height: 25%;
+}
+
+
+header {
+	background-color: rgba(90, 145, 168, 0.6) ;
 	padding: 1em;
 	color: white;
-	background-color: black;
 	clear: left;
 	text-align: center;
 }
 
+
+
 nav {
-	background-color: rgba(54, 61, 75, 0.8);
+	background-color: rgba(54, 61, 75, 0);
 	float: left;
-	width: 25%;
-	height: 100%;
+	width: 15%;
+	height: 80%;
 	margin: 0;
 	padding: 1em;
 
 }
-
-
 nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -47,6 +76,27 @@ nav ul {
 nav ul a {
 	text-decoration: none;
 }
+
+
+article {
+	//background-color: #002b36;
+	
+	height:80%;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.divList{
+	background-color: rgba(54, 61, 75, 0.5);
+	padding: 1em;
+}
+
+.divList:hover{
+	background-color: rgba(236, 236, 236, 0.8);
+	padding: 1em;
+}
+
+
 
 /*w3 schooll*/
 #myBtn {
