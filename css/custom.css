@@ -17,3 +17,8 @@
 .caption{
 	height: 250px;
 }
+
+
+.carousel-control { 
+	background: none !important; filter: none !important; progid:none !important; 
+}
