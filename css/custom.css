@@ -22,3 +22,7 @@
 .carousel-control { 
 	background: none !important; filter: none !important; progid:none !important; 
 }
+
+a.linkInCarrousel{
+	color:#FFFFFF !important;
+}
