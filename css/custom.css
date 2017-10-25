@@ -23,6 +23,12 @@
 	background: none !important; filter: none !important; progid:none !important; 
 }
 
-a.linkInCarrousel{
+.linkInCarrousel{
 	color:#FFFFFF !important;
+}
+
+.horizontalScroller{
+    overflow-x: scroll;
+    width: auto;
+    white-space: nowrap;
 }
