@@ -44,12 +44,15 @@
 
 
 
-.horizontalScroller{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space:nowrap
+.scroller{
+    overflow-y: auto;
+    height:30vw;
 
 
+}
+
+.scroller li{
+	display:inline
 }
 
 
@@ -58,15 +61,15 @@
     border-width: 0px 0px 5px 0px;
     border-color: #ffffff;
 
-	width: 30%;
-	height: 30%;
+    float: left;
+    line-height: 20px;
+    margin-right: 10px;
+
+
+    width: 30vw;
+    height: 30vw;
     margin: 2px;
-    cursor: pointer;
-    display:inline-block;
-    *display:inline;
-    *zoom:1;
-    vertical-align:top;
-    	word-wrap: break-word;
+    
 }
 
 .workBox:hover{
@@ -76,14 +79,18 @@
 
 .workBox h3{
 	text-align: center;
+	word-wrap: break-word;
 
 }
+
+
 
 .workBox img{
 	display: block;
 	margin: auto;
 	height:90%;
 	width:90%;
+	align="middle"
 }
 
 
@@ -110,5 +117,6 @@
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #D62929;
 }
+
 
 
