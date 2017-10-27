@@ -29,10 +29,10 @@
 
 
 
-
 .topBarScroll {
 	    border-radius: 5px !important;	
 }
+
 /*
 .topBarScroll:hover {
 	border-style: solid;
@@ -45,30 +45,13 @@
 
 
 .scroller{
-    overflow-y: auto;
-    height:30vw;
-
-
+	
 }
 
-.scroller li{
-	display:inline
-}
 
 
 .workBox{
-	border-style: solid;
-    border-width: 0px 0px 5px 0px;
-    border-color: #ffffff;
 
-    float: left;
-    line-height: 20px;
-    margin-right: 10px;
-
-
-    width: 30vw;
-    height: 30vw;
-    margin: 2px;
     
 }
 
@@ -86,11 +69,9 @@
 
 
 .workBox img{
-	display: block;
-	margin: auto;
+	display: inline;
 	height:90%;
 	width:90%;
-	align="middle"
 }
 
 
