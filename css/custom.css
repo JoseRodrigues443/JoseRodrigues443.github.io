@@ -51,6 +51,9 @@
 
 
 .workBox{
+	border-style: solid;
+   	border-width: 0px 0px 5px 0px;
+	border-color: #ffffff;
 
     
 }
