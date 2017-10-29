@@ -98,3 +98,10 @@
   	text-transform: lowercase;
 }
 
+.specialThanks a{	
+	text-align: center;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+	/**color: red;**/
+}
