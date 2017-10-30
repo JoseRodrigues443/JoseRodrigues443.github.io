@@ -59,14 +59,14 @@
 }
 
 .workBox:hover{
-    border-color: #18bc9c;   
+    /**border-color: #18bc9c;  **/ 
     -webkit-transform: rotateZ(-5deg);
 	-ms-transform: rotateZ(-5deg);
 	transform: rotateZ(-10deg);
 	transition: 1s ease; 
 }
 .workBoxPositiveRotate:hover{
-    border-color: #18bc9c;   
+   /** border-color: #18bc9c; **/  
     -webkit-transform: rotateZ(5deg);
 	-ms-transform: rotateZ(5deg);
 	transform: rotateZ(10deg);
