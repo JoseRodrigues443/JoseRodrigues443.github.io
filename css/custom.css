@@ -101,13 +101,27 @@
 .specialThanks a{	
 	text-align: center;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  	text-transform: uppercase;
+  	font-weight: 700;
 	/**color: red;**/
 }
 
+.panel-title{
+  	text-align: center;
+}
 
 
+.panel-title a{
+	text-align: center;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	text-transform: uppercase;
+  	text-align: center;
+  	font-size: 25px !important;
+
+}
+
+
+/*Chat*/
 
 .containerMessage {
     border: 2px solid #dedede;
