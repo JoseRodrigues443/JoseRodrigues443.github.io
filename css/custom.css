@@ -84,6 +84,15 @@
 	height: 35px;
 }
 
+.nav-tabs .active{	
+  	border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: #18bc9c;
+}
+
+.nav-tabs a{	
+  	font-size: 25px !important;
+}
 
 
 .workBox img{
@@ -120,6 +129,11 @@
 
 }
 
+/*Buttons*/
+
+.btn{
+	border-radius: 24px;
+}
 
 /*Chat*/
 
